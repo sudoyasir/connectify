@@ -51,7 +51,7 @@ const MeetingSetup = ({
           setisSetupComplete(true);
         }}
       >
-        Joinn Meeting
+        Join Meeting
       </Button>
     </div>
   );

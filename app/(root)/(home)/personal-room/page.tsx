@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useGetCallById } from "@/hooks/useGetCallById";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
+import { ClipboardCopy, Copy } from "lucide-react";
 
 const Table = ({
   title,
@@ -68,7 +69,7 @@ const PersonalRoom = () => {
           Start Meeting
         </Button>
         <Button
-          className="bg-dark-3"
+          className="bg-dark-3 flex items-center gap-2"
           onClick={() => {
             navigator.clipboard.writeText(meetingLink);
             toast({
@@ -76,6 +77,7 @@ const PersonalRoom = () => {
             });
           }}
         >
+          <Copy size={15} />
           Copy Invitation
         </Button>
       </div>

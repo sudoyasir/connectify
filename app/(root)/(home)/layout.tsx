@@ -2,14 +2,15 @@ import React, { ReactNode } from "react";
 
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import Footer from "@/components/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Connectify",
   description: "Video calling application",
   icons: {
-    icon: '/icons/logo.svg'
-  }
+    icon: "/icons/logo.svg",
+  },
 };
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
@@ -22,6 +23,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
           <div className="w-full ">{children}</div>
         </section>
       </div>
+      <Footer />
     </main>
   );
 };

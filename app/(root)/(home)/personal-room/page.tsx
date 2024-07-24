@@ -8,6 +8,7 @@ import { useGetCallById } from "@/hooks/useGetCallById";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 import { ClipboardCopy, Copy } from "lucide-react";
+import InvitePeople from "@/components/InvitePeople";
 
 const Table = ({
   title,
@@ -80,6 +81,7 @@ const PersonalRoom = () => {
           <Copy size={15} />
           Copy Invitation
         </Button>
+        <InvitePeople meetingLink={meetingLink} />
       </div>
     </section>
   );

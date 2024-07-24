@@ -1743,6 +1743,7 @@ __metadata:
     "@types/react-dom": "npm:^18.3.0"
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.1"
+    emailjs-com: "npm:^3.2.0"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.5"
     lucide-react: "npm:^0.412.0"
@@ -2007,6 +2008,13 @@ __metadata:
   dependencies:
     safe-buffer: "npm:^5.0.1"
   checksum: 10c0/ebfbf19d4b8be938f4dd4a83b8788385da353d63307ede301a9252f9f7f88672e76f2191618fd8edfc2f24679236064176fab0b78131b161ee73daa37125408c
+  languageName: node
+  linkType: hard
+
+"emailjs-com@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "emailjs-com@npm:3.2.0"
+  checksum: 10c0/3c6865ce89ebabeccd4f678fbd5f545f58482bb99fc23c17d9cebbf895705275df2da9c6fadaef8148397fe7fcc18cbbe49f9c720b5ad88b2dd6b82680ef169f
   languageName: node
   linkType: hard
 
